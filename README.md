@@ -2,13 +2,13 @@
 
 ## Announcements
 
-- Today Two Presentations about edge intelligence.
+- Today: two presentations about edge intelligence.
 - Once you provide [feedback for the course](https://ojp.metropolia.fi/lomakkeet/1/lomake.html?code=VFgwMEVYOTEtMzAwMQ==&lang=en), submit confirmation to Oma.
 
 ### Timeline
 
 - &nbsp;9:00 - 10:00: Convolutional Neural Network (CNN)
-- 10:00 - 11:00: Group activities 1 and 2
+- 10:00 - 11:00: Activities 1 and 2
 - 11:00 - 12:00: Transformers
 
 ### Part 1: Recap
@@ -19,7 +19,6 @@
   - High Level API: [Keras](https://keras.io/keras_3/)
 - Keras basics
 - [Activity 1](./material/activity1.md)
-
 
 ### Part 2: CNN
 
