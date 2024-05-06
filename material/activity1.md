@@ -1,7 +1,7 @@
 # Activity 1:
 
 
-> Start by uploading the [cereal](../datasets/cereal.csv)
+> Start by uploading the [cereal](../datasets/cereal.csv) dataset  to your Colab environment. You can do this by clicking on the 'Files' tab on the left sidebar, then selecting 'Upload' and choosing the 'cereal.csv' file from your local machine."
 
 ## Part 1/3: Introduction to Keras
 
@@ -22,7 +22,6 @@ We begin by importing the necessary libraries. NumPy is imported to handle numer
 ```python
 # Load datasets
 cereal_data = pd.read_csv("cereal.csv")
-concrete_data = pd.read_csv("concrete.csv")
 ```
 
 We load the cereal and concrete datasets from CSV files. Ensure you have these files downloaded and placed in your working directory.
@@ -232,7 +231,7 @@ model.add(Dense(1))
 
 
 <details>
-<summary>Sample solution</summary>
+<summary>Sample answers</summary>
 
 1. The code snippet defines a feedforward neural network architecture.
 2. The `Sequential()` function initializes a sequential model, which allows us to define the neural network as a sequence of layers.

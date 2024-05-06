@@ -315,3 +315,37 @@ cnn.fit(X_train, y_train, epochs=10)
 13. How many epochs are specified for training the CNN, and what does this parameter represent?
 14. What datasets (`X_train` and `y_train`) are being used for training the CNN?
 15. What is the expected shape of the input data (`X_train`) for this CNN?
+
+<details>
+<summary>Sample answers</summary>
+
+1. The code snippet defines a Convolutional Neural Network (CNN) architecture.
+
+2. The `Sequential()` function is used to create a sequential model, allowing layers to be added in a sequential manner.
+
+3. There are two convolutional layers included in this CNN.
+
+4. The `Conv2D` layers perform convolution operations, extracting features from the input images.
+
+5. The `(3, 3)` parameter represents the size of the convolutional kernels, which are 3x3 matrices applied to the input data during convolution.
+
+6. ReLU (Rectified Linear Unit) activation function is used for the convolutional layers (`activation='relu'`). ReLU is common in CNNs because it introduces non-linearity and helps the model learn complex patterns in the data.
+
+7. The `MaxPooling2D` layer reduces the spatial dimensions of the input data by taking the maximum value from each patch of the feature map. This helps in reducing computational complexity and controlling overfitting.
+
+8. The `Flatten()` layer transforms the multi-dimensional output of the convolutional layers into a one-dimensional array, preparing it for input into the fully connected layers.
+
+9. There are 64 neurons in the first `Dense` layer. This number may have been chosen based on the complexity of the task and the size of the dataset.
+
+10. The last `Dense` layer uses the softmax activation function (`activation='softmax'`). This activation function is suitable for multi-class classification tasks as it converts the raw output into probabilities for each class.
+
+11. The loss function specified is `'sparse_categorical_crossentropy'`, and the optimizer is `'adam'`. These choices are appropriate for multi-class classification tasks as they efficiently handle categorical data and optimize the model parameters.
+
+12. During training, the model's performance is evaluated using accuracy as the metric. Accuracy measures the proportion of correctly classified samples.
+
+13. The CNN is trained for 10 epochs, meaning the entire dataset is passed through the network 10 times during training.
+
+14. The training datasets `X_train` and `y_train` are used for training the CNN.
+
+15. The expected shape of the input data (`X_train`) for this CNN is `(batch_size, 32, 32, 3)`, where `batch_size` is the number of samples in each batch, and `32x32x3` represents the height, width, and number of channels (RGB) of the input images, respectively.
+</details>

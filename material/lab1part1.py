@@ -7,7 +7,6 @@ import pandas as pd
 
 # Load datasets
 cereal_data = pd.read_csv("cereal.csv")
-concrete_data = pd.read_csv("concrete.csv")
 
 # Preprocess datasets
 cereal_features = cereal_data[['calories', 'protein', 'fat', 'sodium', 'fiber', 'carbo', 'sugars', 'potass', 'vitamins']]
