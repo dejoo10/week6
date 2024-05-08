@@ -24,7 +24,7 @@ We begin by importing the necessary libraries. NumPy is imported to handle numer
 cereal_data = pd.read_csv("cereal.csv")
 ```
 
-We load the cereal and concrete datasets from CSV files. Ensure you have these files downloaded and placed in your working directory.
+We load the cereal dataset from CSV files. 
 
 3. **Preprocess Datasets**:
 

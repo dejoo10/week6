@@ -29,18 +29,6 @@
   - [CNN Explainer](https://poloclub.github.io/cnn-explainer/)
 - [Activity 2](./material/activity2.md)
 
-### Part 3: RNN & Transformers
-
-- Recurrent Neural Networks (RNN)
-- [Transformers](./material/transformers.md)
-  - Tokenizers
-  - Embedding Vectors
-  - Transformer Architecture
-  - Pretraining Datasets: [Wikipedia](https://en.wikipedia.org/wiki/Wikipedia:Database_download), [Common Crawl](https://registry.opendata.aws/commoncrawl/)
-- [Hugging Face Transformers Python library](https://huggingface.co/docs/transformers/index) 
-- [The Annotated Transformer](https://nlp.seas.harvard.edu/annotated-transformer/)
-
-
 ### Resources
 
 - Courses:
@@ -51,13 +39,7 @@
 - Books:
   - Deep Learning with Python, Second Edition, By Francois Chollet
   - deep learning from scratch
-  - Natural Language Processing with Transformers, Revised Edition
   - The TensorFlow Workshop
-  - Generative AI on AWS, by Chris Fregly, Antje Barth, Shelbee Eigenbrode
-  - Transformers for Natural Language Processing and Computer Vision - Third Edition, by Denis Rothman
-  - Natural Language Processing with Transformers, Revised Edition, by Lewis Tunstall, Leandro von Werra, Thomas Wolf
-
-
 
 <!-- 
 - Articles:
